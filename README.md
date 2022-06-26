@@ -1,12 +1,24 @@
 # Taskmaster
 1. Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
+* Taskmaster is a tool which will enable its users to track and plan their hectic lives.  Taskmaster benefits potential user groups such as students, parents, and party planners.  Taskmaster will have a very minimalistic interface consisting of just a few user interface (UI) components necessary for the creation and modification of events.  These events will then be shown to the user as a timeline or calendar.
+
 2. What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+
+* Based on client needs, we will commence with development of an event tracking app.  Per the requirements, the application will be used to track the dates and times of upcoming events.  Furthermore, the app will require a database (backend) and the app (frontend).  The app will consist of at least two screens.  Initially, the user will be greeted with a login screen where they can register new user credentials or login using existing user credentials.  After authentication and authorization have occurred, the user will be able to perform CRUD operations on an event.  An event will contain a title (required), description (nullable), and datetime (required).  We can add additional fields to events based on user needs as the app evolves.  The events will be displayed to the user on a screen with a grid with titles and dates displayed.  The user will be able to access the last component "+" within this grid to add a new event.  Users will be able to expand these events (opening another screen) so they can be edited as needed.  This will serve as a simple way for users to track and update their events.
 
 3. How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
 
+* I am biased because I am a developer but by the time I have gotten to the development phase (all projects probably start with some spitballing/small scripts for me) I already know the path I am going to take. I try to switch between languages for each project just to keep current on frameworks; however, I will not do this if it will become a detriment the process. I try to build applications in a modular way and deploy them quickly so that I can gather user feedback.
+
 4. How did you test to ensure your code was functional? Why is this process important and what did it reveal?
+
+* I actively tested my code as I developed the application because I was not very confident in Android Studio.  I try to think of any applications I work on as being object-oriented which helps me better understand and apply concepts. If I have done a similar project I will reflect on that project. Building off of past failures and success generally improves the quality of my projects. I will also reiterate that you should always measure twice and cut once.
 
 5. Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
 
+* One thing I learned from my experience with project three is how quickly an Android app can be spun up. I had limited time to work on the project last week so Sunday morning I began creating my application based on the views from the previous assignment. I quickly realized it is a lot easier than it used to be to make an Android application! A few hours and the project was completed, I learned a lot about activity classes, SQLiteOpenHelper, components, and everything related to Android development really! One question I still have about developing and launching a mobile app is about intellectual property. How are there so many duplicate apps on the store which do the same thing? For example, Wordle. The real Wordle isn't even an Android native app, it's a web app; however, there are tens of replicants in the Google Play Store. Could I just rip off an app, pay Google to advertise it over other apps, and steal traffic from other apps? Sounds like a horrible model for an app distribution platform.
+
 6. In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+* A few hours and the project was completed, I learned a lot about activity classes, SQLiteOpenHelper, components, and everything related to Android development really!  I think I did a great job with my object model and data management schema.  I also think I did an exceptional job with the iterative view in my data display screen.
